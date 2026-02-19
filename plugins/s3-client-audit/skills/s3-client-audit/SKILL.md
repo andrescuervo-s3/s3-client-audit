@@ -159,36 +159,59 @@ Pick 2-3 major project decisions (design approvals, scope changes, launch dates,
 
 ## Phase 4: Analysis Framework
 
-Structure the briefing around these nine sections. Each section should include specific examples from the data — not vague observations.
+The purpose of this audit is to answer one question for S3 leadership: **How well is this team executing this project, and where is it falling apart?**
+
+This is not a communication report. It's a project health diagnosis. Every section must tell a story with names, dates, dollar amounts, and consequences. If a finding doesn't connect to project risk, timeline impact, or client exposure, it's background context — not a headline.
+
+Structure the briefing around these nine sections.
 
 ### 1. Communication Volume & Distribution
-Who is posting the most? Who is silent? What percentage of channel members have never posted? How does this channel's activity level compare to its contract value and complexity? A $126K engagement with 3 messages per month is a very different signal than a $5K engagement with the same cadence.
+Tell the story of who is doing the talking and who isn't. Connect volume to responsibility: if the account lead posted 80% of messages, that's a bus-factor problem. If 5 of 12 channel members have never posted, name them, check if they're contributing elsewhere, and say whether the project is being run by a skeleton crew.
+
+Always tie volume to contract value. A $126K engagement with 3 messages per month is a fundamentally different risk profile than a $5K engagement with the same cadence. State the ratio explicitly.
 
 ### 2. Information Flow — Where the Work Actually Happens
-Is project work visible in the client channel, or is it happening elsewhere? Map where the actual work conversations are taking place vs. what's being surfaced. This is usually the most important finding. Build a clear picture: "9 active contributors are doing work on this project in other channels, none of whom are in the client channel."
+This is usually the most important finding. Map the gap between where work is happening and where it's visible. Name every person doing work on this project in other channels who is not posting in the client channel. Name the channels where the real collaboration is happening.
+
+Build the picture concretely: "Rose completed 4 design rounds in #subpage-design-review. Walt closed 5 dev tickets in #site-reliability. Rohan wrote 8 content pages tracked in Google Drive. None of this work was ever mentioned in the client channel. If the account lead were hit by a bus, the replacement would see an empty channel and have no idea the project was 70% complete."
 
 ### 3. Responsiveness
-Are questions getting answered? By whom? How quickly? Is there a single point of failure — one person who answers everything? What happens when that person is unavailable?
+Find every question asked in the client channel and track what happened. Who answered? How long did it take? Did it get answered at all? If one person answers every question, name them and call it the single point of failure it is.
+
+Look for the worst cases — questions that sat unanswered for days, questions that got answered in email but not Slack, questions from the client that the team never saw. These are the moments where project trust erodes.
 
 ### 4. Cadence & Gaps
-How often is the channel active? Map the timeline: when did activity happen, and how long were the gaps between bursts? Overlay the gaps against activity found in other sources. Is there any regular status update rhythm (weekly check-ins, milestone announcements)?
+Map the project timeline with specific dates. Identify every gap of 7+ days and tell the story of what was actually happening during each silence. This is where the cross-source analysis pays off.
+
+Example of what this should look like: "The client channel went silent from December 18 to February 11 — 55 days. During that period, Rose posted 4 design updates in #subpage-design-review, Rohan created 8 content documents in Google Drive, Walt worked 5 dev tickets in #site-reliability, and Whitney had 3 email exchanges with the client. The project was active. The channel just couldn't see it."
 
 ### 5. Cross-Functional Visibility
-Can someone in this channel understand the full project status (design, dev, content, SEO, account) without going elsewhere? Build a workstream-by-workstream visibility table showing what's visible vs. invisible from inside the client channel.
+Build a workstream-by-workstream table: for each scope item in the contract (website, SEO, content, paid ads, photoshoot, etc.), show what's visible from inside the client channel vs. what's happening elsewhere. Be specific about what's missing.
+
+This answers: "If I'm a new team member added to this channel, could I understand where this project stands?" The answer should include exactly what's invisible and where you'd have to go to find it.
 
 ### 6. Timing & Sequencing Risks
-Are people or workstreams being brought in too late? Check when specialized roles (SEO, dev, content) first appeared in client communications vs. when they should have been involved given the project timeline. Any signs of last-minute scrambling?
+**This is where you find the red flags.** For every specialized role (SEO, dev, content, design), find when they first appeared in any communication about this project and compare that to when they should have been involved.
+
+Tell the story the way a project post-mortem would: "The contract includes $10,550 in SEO services. Justin Reese, the SEO specialist, joined the client channel on February 19 — the same day the team was told launch is Monday February 23. That's 2 business days for on-page SEO, meta data, schema markup, redirect mapping, and indexing strategy on a new-build website in a competitive legal market. This work typically needs to be integrated during development, not bolted on at the end."
+
+Also flag: people who joined the channel with no message (what are they doing there?), handoff timing gaps (content finished but dev didn't start for 3 weeks), and scope items with no communication trail at all.
 
 ### 7. Client-Facing Communication Health
-*(This section draws primarily from Gmail and Calendar data.)*
-How often is the client hearing from S3? Is there a regular cadence of client emails or calls? Is one person handling all client communication, or is it distributed? Are client questions getting answered promptly? Is the client being kept informed of progress, or only contacted when S3 needs something?
+*(Draws primarily from Gmail and Calendar data.)*
+Answer: Is S3 proactively communicating with the client, or only reaching out when they need something? How often are meetings happening? Is one person handling all client contact (bus-factor risk)?
+
+Find the gaps: weeks where the client heard nothing, emails where the client asked a question and the response took 5+ days, meetings with no follow-up summary sent. These are the moments that erode client confidence.
 
 ### 8. Decision Traceability
-*(This section draws from cross-source analysis.)*
-Can you follow a decision from the meeting where it was made, through team communication, to the deliverable? Show 2-3 traced examples. Where in the chain do decisions get lost?
+Pick 2-3 major project decisions and trace them from origin to execution. Show the full chain: where the decision was made (meeting? email? Slack?), who was informed, whether it reached the people who needed to act on it, and how long it took to flow from decision to deliverable.
 
-### 9. Anomalies
-Anything unusual in naming conventions, channel structure, missing workstreams, display names, search friction, or activity patterns. Also flag: team members who should be in the channel but aren't, scope items with no communication trail, and documents that seem to be doing the job of Slack (massive Google Docs used as de facto project management tools).
+The point is to show where decisions get lost. Example: "In the January 8 client call, the client approved the homepage wireframe. The approval was noted in Notion meeting notes but never posted to the client channel or communicated to the dev team. Walt didn't start homepage development until January 29 — 21 days after approval — because no one told him the wireframe was approved."
+
+### 9. Anomalies & Red Flags
+Flag anything that doesn't fit the expected pattern. This includes: team members who should be in the channel but aren't, scope items with zero communication trail (paid for but no evidence of work), people added to the channel on launch week with no explanation, naming convention issues that create search friction, and documents being used as de facto project management tools because Slack coordination failed.
+
+**Rank anomalies by severity.** A missing SEO workstream on a $10K SEO contract is a red flag. A misspelled channel name is a footnote.
 
 ---
 
@@ -217,20 +240,38 @@ Save as `[Client-Name]-Client-Audit.docx` in the workspace folder.
 
 ## Tone and Style
 
-This is an operational briefing, not a formal report. Write in direct language with specific examples and clear conclusions. The reader is a senior leader who wants to know what's actually happening, not what should be happening.
+This is an operational briefing, not a consultant's report. Write like you're briefing a CEO who has 10 minutes and needs to know what's actually happening — not what should be happening.
+
+**The standard:** Every finding must include a specific person, a specific date, a specific number, and a specific consequence. If you can't name who, when, and what it means for the project, the finding isn't ready.
 
 **Patterns that work:**
-- "Whitney is the single point of failure for institutional knowledge in this channel."
-- "5 of 12 original members (42%) have never posted a single message."
-- "The entire design review cycle — 11 messages over 7 days — happened completely outside the client channel."
-- "During the 63-day channel silence, Rose was designing the landing page, Rohan was writing 8 content pages, and Walt was executing 5 dev tickets. None of this appeared in the client channel."
+- "Whitney is the single point of failure for institutional knowledge in this channel. She posted 23 of 30 messages (77%). If she's unavailable for a week, no one else in this channel has enough context to answer the client's questions."
+- "The contract includes $7,550 in SEO services plus $3,000 in Interim SEO — $10,550 total. Justin Reese joined the channel on February 19, with launch planned for February 23. He has 2 business days to complete work that should have been running alongside development for months."
+- "The entire design review cycle — 11 messages over 7 days between Rose, Sydney, and two rounds of client feedback — happened completely outside the client channel in #subpage-design-review. Anyone looking at the client channel would have no idea the homepage design was finalized."
+- "During the 55-day channel silence (Dec 18 – Feb 11), Rose was designing the landing page, Rohan was writing 8 content pages, and Walt was executing 5 dev tickets. The project was 70% complete. The client channel showed nothing."
 
-**Patterns to avoid:**
+**Patterns that are unacceptable — never use these:**
 - "Communication could be improved across the team."
 - "It is recommended that stakeholders consider enhancing visibility."
 - "There may be opportunities for better cross-functional alignment."
-- Generic observations without specific evidence.
+- "The team could benefit from more regular check-ins."
+- Any sentence that could apply to any project at any company. Every sentence must be specific to THIS client, THIS team, THIS project.
 
-Every claim should be backed by a specific message, date, person, or document. If you can't point to evidence, don't make the claim. Quantify everything you can: message counts, gap durations, response times, document counts.
+**Structure each section as a narrative, not a list of bullet points.** Tell the story of what happened, then state what it means. Lead with the most important finding, not the chronological first event.
 
-End with exactly three actionable items — the three things that need attention right now, ranked by urgency.
+End with exactly three actionable items — the three things that need attention right now, ranked by urgency. Each action item must name who should do what by when.
+
+---
+
+## Data Limitations — Always Acknowledge
+
+This audit can only see what the person running it has access to. Be explicit about blind spots:
+
+- **Gmail visibility is partial.** The audit only searches the inbox of the person running it. If the account lead had email exchanges with the client that this person wasn't CC'd on, those conversations are invisible. State this clearly: "This audit reflects email threads visible to [person's name]. Client-facing emails where [person] was not CC'd are not captured. The actual volume of client communication may be higher."
+- **Slack private channels and DMs are not searchable.** If project conversations happened in private channels or direct messages, they won't appear. Note this.
+- **Google Drive access depends on sharing permissions.** Documents the auditor doesn't have access to won't show up in search results.
+- **Calendar visibility depends on sharing settings.** If the account lead's calendar isn't shared, client meetings may not appear.
+
+**Do not present findings as complete truth.** Present them as "what we can see from the tools we have access to." Where the data suggests something is missing (e.g., a scope item with zero communication trail), flag it as a gap worth investigating — not a definitive conclusion that no work was done.
+
+The goal is to surface what's visible and call out what isn't. Both are valuable.
