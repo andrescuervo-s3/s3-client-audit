@@ -1,11 +1,6 @@
 ---
 name: s3-client-audit
-description: |
-  Performs a comprehensive client communication audit across Slack, Gmail, Google Calendar, Notion meeting notes, and Google Drive. Produces an operational briefing (.md + .docx) analyzing team collaboration health, communication gaps, and project risk for a specific client engagement.
-
-  Use this skill whenever someone asks to: audit a client channel, review client communications, assess team collaboration, check project health, look at how a client project is being managed, investigate communication gaps, or prepare an operational briefing on a client. Also trigger when someone asks "what's happening with [client]?" or "how is [client] going?" in a way that implies they want a systemic view rather than a quick status update. Trigger on phrases like "pull a report on [client]", "how's the [client] channel looking?", "team audit", "communication audit", "collaboration audit", or "channel health check."
-
-  This skill is built for Studio 3 Marketing leadership. It assumes familiarity with S3's channel structure, team roles, and operational cadence.
+description: Performs a comprehensive client communication audit across Slack, Gmail, Google Calendar, Notion meeting notes, and Google Drive. Produces an operational briefing (.md + .docx) analyzing team collaboration health, communication gaps, and project risk for a specific client engagement. Use this skill whenever someone asks to audit a client channel, review client communications, assess team collaboration, check project health, look at how a client project is being managed, investigate communication gaps, or prepare an operational briefing on a client. Also trigger when someone asks "what's happening with [client]?" or "how is [client] going?" in a way that implies they want a systemic view rather than a quick status update. Trigger on phrases like "pull a report on [client]", "how's the [client] channel looking?", "team audit", "communication audit", "collaboration audit", or "channel health check." This skill is built for Studio 3 Marketing leadership. It assumes familiarity with S3's channel structure, team roles, and operational cadence.
 ---
 
 # S3 Client Communication Audit
