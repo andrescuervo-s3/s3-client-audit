@@ -4,13 +4,5 @@
   "description": "Performs comprehensive client communication audits across Slack, Gmail, Google Calendar, Notion meeting notes, and Google Drive. Produces operational briefings (.md + .docx) analyzing team collaboration health, communication gaps, and project risk for Studio 3 Marketing client engagements.",
   "author": {
     "name": "Studio 3 Marketing"
-  },
-  "keywords": [
-    "audit",
-    "client",
-    "communication",
-    "slack",
-    "collaboration",
-    "operational-briefing"
-  ]
+  }
 }
