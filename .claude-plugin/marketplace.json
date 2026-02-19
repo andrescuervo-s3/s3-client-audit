@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "s3-client-audit",
-      "src": ".",
+      "source": "./s3-client-audit",
       "description": "Performs comprehensive client communication audits across Slack, Gmail, Google Calendar, Notion, and Google Drive. Produces operational briefings analyzing team collaboration health, communication gaps, and project risk.",
       "version": "0.1.0"
     }
